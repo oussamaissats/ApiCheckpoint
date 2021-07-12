@@ -1,0 +1,25 @@
+.user{
+    margin : 30px;
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 5px 3px 3px 5px rgb(94, 94, 94);
+    gap : 10px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.user:hover{
+    transform: scale(1.1);
+}
+
+.pic {
+    margin : 20px;
+}
+
+.user-email{
+    font-style: italic;
+}
